@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-	max-width: 1100px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -32,7 +32,7 @@ body {
 	text-align: center;
 	color: #D1D0C5;
 	margin-bottom: 30px;
-	font-size: 3.5rem;
+	font-size: 3rem;
 	font-weight: 700;
 }
 
@@ -40,7 +40,7 @@ body {
 	position: fixed;
 	top: 50px;
 	right: 50px;
-	padding: 12px 20px;
+	padding: 10px 15px;
 	background-color: #E2B714;
 	color: #1A1C17;
 	border: none;
@@ -71,11 +71,12 @@ body {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 40px;
-	padding: 20px 0;
+	padding: 30px 20px;
 }
 
 .card {
 	background: #202225;
+	border: 1px solid #858685;
 	border-radius: 15px;
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 	transition: transform 0.3s ease;
@@ -91,7 +92,7 @@ body {
 	background: #1A1C17;
 	color: #D1D0C5;
 	padding: 15px;
-	font-size: 1.3em;
+	font-size: 1.2rem;
 	font-weight: 500;
 }
 
@@ -111,7 +112,7 @@ body {
 
 .info-value {
 	color: #D1D0C5;
-	font-size: 1.1em;
+	font-size: 1em;
 	margin-bottom: 10px;
 }
 
@@ -131,12 +132,13 @@ body {
 }
 
 .btn-edit {
-	background-color: rgba(12, 18, 138, 0.9);
-	color: #D1D0C5;
+	background-color:#E2B714;
+	color: #1A1C17;
 }
 
 .btn-edit:hover {
-	background-color: rgba(0, 0, 256, 0.71);
+	background-color: #5E6163;
+	color: #D1D0C5;
 }
 
 .btn-delete {
@@ -166,7 +168,8 @@ body {
 
 /* Style the input field */
 .search-input {
-    padding: 12px 20px;
+	color:#858685;
+    padding: 8px 12px;
     font-size: 1rem;
     border: 1px solid #202225;
     border-radius: 15px;
@@ -189,11 +192,11 @@ body {
 
 .search-btn {
 	font-weight: bold;
-    padding: 12px 20px;
+    padding: 8px 12px;
     font-size: 1rem;
     background-color: #E2B714;
     color: #1A1C17;
-    border: 1px solid #E2B714;
+    border: none;
     border-radius: 15px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -201,7 +204,6 @@ body {
 
 .search-btn:hover {
     background-color: #5E6163;
-    border-color:#5E6163;
     color: #D1D0C5;
 }
 
@@ -279,12 +281,12 @@ body {
 
 .success-toast {
     background-color: rgba(0, 148, 0, 0.9);
-    border: 2px solid rgba(100, 206, 100, 0.71);
+    border: 2px solid  rgba(0, 148, 0, 0.71);
 }
 
 .failure-toast {
-    background-color: rgba(138, 18, 12, 0.9);
-    border: 2px solid rgba(241, 51, 34, 0.71);
+    background-color: rgba(0, 100, 0, 0.9);
+    border: 2px solid rgba(0, 256, 0 , 0.71);
 }
 
 .toast-close {
