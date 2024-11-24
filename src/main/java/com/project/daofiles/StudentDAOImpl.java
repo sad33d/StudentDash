@@ -22,7 +22,7 @@ public class StudentDAOImpl implements StudentDAO {
     private static final String fetchAll = "SELECT * FROM `student`";
     private static final String fetchOnId = "SELECT * FROM `student` WHERE `id`=?";
     private static final String addStudent = "INSERT INTO `student`(`name`, `email`, `mobile`, `branch`) VALUES(?, ?, ?, ?)";
-    private static final String updateStudent = "UPDATE `studen` SET `name`=?, `mobile`=?, `branch`=? WHERE id=?";
+    private static final String updateStudent = "UPDATE `student` SET `name`=?, `mobile`=?, `branch`=? WHERE id=?";
     private static final String searchQuery = "SELECT * FROM `student` WHERE `name` LIKE ? OR CAST(`id` AS CHAR) LIKE ?";
     private static final String deleteStudent = "DELETE FROM `student` WHERE id=?";
 
