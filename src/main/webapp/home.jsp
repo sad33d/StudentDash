@@ -302,7 +302,7 @@ body {
 </head>
 <body>
 	<div class="container">
-		<h1 class="page-title">Student Dashboard</h1>
+		<h1 class="page-title">StudentLookups</h1>
 
 		<a href="addStudent.jsp"><button class="add-student-btn"
 				onclick="addStudent()">
